@@ -111,10 +111,11 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * The UI should be cute and something I'd want to screenshot and share.
 
 ### User Suggestions from Social Media
-![User survey 1](./public/Structure.jpg)
-![User survey 2](./public/Categories-1.jpg)
-![User survey 3](./public/Categories-2.jpg)
-![User survey 4](./public/Calendar.jpg)
+
+<img src="./public/UserSurveys/Structure.jpg" width=45% />
+<img src="./public/UserSurveys/Categories-1.jpg" width=45% />
+<img src="./public/UserSurveys/Categories-2.jpg" width=45% />
+<img src="./public/UserSurveys/Calendar.jpg" width=45% />
 
 #### License
 
