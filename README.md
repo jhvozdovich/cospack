@@ -98,6 +98,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * Calculate percentage complete based on percentage of all associated elements and total time logged
 * Events- can add cosplays to events
 * User can change order of cosplays in list
+* Photo gallery
 
 ### User Stories
 * As a cosplayer, I want a packing checklist so that I will be sure to remember all of my supplies before big events.
