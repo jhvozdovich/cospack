@@ -9,7 +9,9 @@
 
 ### Description
 
-_This mobile application serves as an interactive, visual checklist application to help cosplayers pack for conventions and photoshoots, preventing forgotten costume pieces and props.  Full CRUD functionality is achieved with React Native is and Firebase.
+Cosplayers have a lot to keep track of! Between costumes, props, makeup, repair supplies, toiletries, and miscellaneous gear, so many essentials can be forgotten after a whirlwind of con prep. CosPack is an app that can be used as a cosplay to do list or packing list. Upload a photo and label elements of your costume for a visual checklist go to through before you head out the door for your next big event. Mark items that need repair or need completion, track your progress, and feel confident that you haven’t forgotten that wig you spent two weeks styling, the magic earrings central to your character’s powers, or that expensive as heck 8ft long sword you commissioned.
+
+_This mobile application serves as an interactive, visual checklist application to help cosplayers pack for conventions and photoshoots, preventing forgotten items.  Full CRUD functionality is achieved with React Native and Firebase. A one to many relationship is set up between cosplays and their components._
 
 ### Instructions for use:
 
@@ -61,21 +63,35 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-| **Spec** | User Input:"Input" | Output: “Output" |
+| **User can view a list of cosplays** | User Input:"Input" | Output: “Output" |
+| **User can create a new cosplay** | User Input:"Input" | Output: “Output" |
+| **User can view cosplay details** | User Input:"Input" | Output: “Output" |
+| **User can update cosplay details** | User Input:"Input" | Output: “Output" |
+| **User can delete a cosplay** | User Input:"Input" | Output: “Output" |
+| **User can view a list of cosplay elements** | User Input:"Input" | Output: “Output" |
+| **User can add a new cosplay element** | User Input:"Input" | Output: “Output" |
+| **User can update a cosplay element** | User Input:"Input" | Output: “Output" |
+| **User can delete a cosplay element** | User Input:"Input" | Output: “Output" |
+| **User upload a photo of a cosplay** | User Input:"Input" | Output: “Output" |
+| **User upload a photo of a cosplay** | User Input:"Input" | Output: “Output" |
+| **User can link cosplay elements to different parts of the photo** | User Input:"Input" | Output: “Output" |
+| **User can link cosplay elements to different parts of the photo** | User Input:"Input" | Output: “Output" |
 
-User can input costume checklist
-User can upload and store photos
-User can select from customizable list templates
-User can store lists locally
-User can label image
-User can draw on image
-User can create drawing from scratch within the app
-User can begin drawing with customizable templates
-What tools, frameworks, libraries, APIs, modules and/or oth
+
 
 ### Stretch Goals
-* 
+* Calendar for project planning, deadlines, and scheduling
+* User can draw on photos to color code items as complete, missing, broken, or in progress
+* Templates are added with common items like wig, shoes, contacts
+* User can add multiple reference photos to a project and one main checklist photo
+* Checklist mode - app pops up modal for each item associated with cosplay with options "Packed or NOT PACKED", color codes image or list
+* Optional subgroups - clothes, accessories, props, or more freeform list
 
+### User Stories
+* As a cosplayer, I want a packing checklist so that I will be sure to remember all of my supplies before big events.
+* I running on little sleep and still finishing everything before the con so I need a visual, intuitive app that will help walk me through the packing process.
+* I don't want to stress about forgetting important parts of my costume that I worked hard on!
+* This app needs to be free, easy to use, and secure! I'm on a budget and don't want to fuss with something clunky.
 
 #### License
 
