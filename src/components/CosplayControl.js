@@ -1,18 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import AppControl from "./AppControl";
+import Home from "./Home"
 
-export default function App() {
+export default function CosplayControl() {
   return (
     <View style={styles.container}>
-      <AppControl />
+      <Text>Control Test</Text>
+      <Home />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff'
-  },
+  flex: 1
 });

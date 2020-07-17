@@ -1,18 +1,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import AppControl from "./AppControl";
 
-export default function App() {
+
+export default function Home() {
   return (
     <View style={styles.container}>
-      <AppControl />
+      <Text>Home Test</Text>
+      <Home />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff'
-  },
+  flex: 1
 });
