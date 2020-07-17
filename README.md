@@ -96,6 +96,8 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * Notification options
 * Customizable UI - pixel filter for photos?
 * Calculate percentage complete based on percentage of all associated elements and total time logged
+* Events- can add cosplays to events
+* User can change order of cosplays in list
 
 ### User Stories
 * As a cosplayer, I want a packing checklist so that I will be sure to remember all of my supplies before big events.
@@ -103,6 +105,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * I don't want to stress about forgetting important parts of my costume that I worked hard on!
 * This app needs to be free, easy to use, and secure! I'm on a budget and don't want to fuss with something clunky.
 * The UI should be cute and something I'd want to screenshot and share.
+
 
 ### User Suggestions from Social Media
 <!-- PUT SCREENSHOTS FROM POLLS HERE -->
