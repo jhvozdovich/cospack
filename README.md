@@ -5,7 +5,7 @@
 #### Author: **Jessica Hvozdovich**
 #### July 17, 2020
 
-<!-- ![Screenshot of Webpage](./public/CraftyBrewScreenshot.png) -->
+<!-- ![Screenshot of Webpage](./public/.png) -->
 
 ### Description
 
@@ -63,20 +63,26 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 ### Specs
 | Spec | Input | Output |
 | :------------- | :------------- | :------------- |
-| **User can view a list of cosplays** | User Input:"Input" | Output: “Output" |
-| **User can create a new cosplay** | User Input:"Input" | Output: “Output" |
-| **User can view cosplay details** | User Input:"Input" | Output: “Output" |
-| **User can update cosplay details** | User Input:"Input" | Output: “Output" |
-| **User can delete a cosplay** | User Input:"Input" | Output: “Output" |
-| **User can view a list of cosplay elements** | User Input:"Input" | Output: “Output" |
-| **User can add a new cosplay element** | User Input:"Input" | Output: “Output" |
-| **User can update a cosplay element** | User Input:"Input" | Output: “Output" |
-| **User can delete a cosplay element** | User Input:"Input" | Output: “Output" |
-| **User upload a photo of a cosplay** | User Input:"Input" | Output: “Output" |
-| **User upload a photo of a cosplay** | User Input:"Input" | Output: “Output" |
-| **User can link cosplay elements to different parts of the photo** | User Input:"Input" | Output: “Output" |
-| **User can link cosplay elements to different parts of the photo** | User Input:"Input" | Output: “Output" |
-
+| **User enters the app on a splash page** | User Input: "Open App" | Output: “Welcome to CosPack! View the Archives, Begin a New Adventure" |
+| **User can view a list of cosplays** | User Input: "View Cosplays" | Output: “Lilith, Phos, Mimikyu" |
+| **User can create a new cosplay** | User Input: "Add Cosplay" | Output: “Cosplay Form" |
+| **User can view cosplay details** | User Input: "Click-Phos" | Output: “Character:Phos, Series: Houseki No Kuni, Date Started: January 20, 2019, Date Completed: March 14, 2019 (Percent completed and deadline display if not)" |
+| **User can update cosplay details** | User Input: "Edit Cosplay" | Output: “Update Form" |
+| **User can delete a cosplay** | User Input: "Delete" | Output: “Are you sure you want to remove *-Cosplay Name?-*" |
+| **User can confirm deletion of a cosplay** | User Input: "Are you sure? Yes" | Output: “Cosplay Removed, Return to List View" |
+| **User can view a list of cosplay elements** | User Input: "See Cosplay Pieces" | Output: “Cosplay Element List Displayed" |
+| **User can view cosplay element details** | User Input: "Click Wig" | Output: “Wig Details Displayed" |
+| **User can add a new cosplay element** | User Input: "Add Item" | Output: “Item Form Displayed: Name, Complete Boolean, Percentage Slider if not, Lost/Damaged Boolean, Time Spent Working, Deadline Calendar" |
+| **User can update a cosplay element** | User Input: "Edit Element" | Output: “Edit form displayed" |
+| **User can delete a cosplay element** | User Input: "Delete" | Output: “Are you sure you want to remove *-Element Name-*?" |
+| **User can confirm deletion of a cosplay element** | User Input: "Are you sure? Yes" | Output: “Element Removed, Return to List View" |
+| **User upload a photo of a cosplay** | User Input: "Add photo" | Output: “Detail Page has photo, blank choose your character stock previously" |
+| **User can link cosplay elements to different parts of the photo** | User Input: "Zoom and Select/Draw/Highlight?" | Output: “Element Linked" |
+| **User can sign up** | User Input: "username, password, email" | Output: "Home Page" |
+| **Error displays if username or email is already in use** | User Input: "username, password, email" | Output: "Sorry an account already exists with this name!" |
+| **User can login** | User Input: "username, password" | Output: "Home Page" |
+| **Error displays for invalid credentials** | User Input: "username, password" | Output: “Sorry your username or password was incorrect!" |
+| **User can only see their own cosplay data** | User Input: "Login" | Output: “User Projects only in display and details, link with user id?" |
 
 
 ### Stretch Goals
@@ -86,12 +92,20 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * User can add multiple reference photos to a project and one main checklist photo
 * Checklist mode - app pops up modal for each item associated with cosplay with options "Packed or NOT PACKED", color codes image or list
 * Optional subgroups - clothes, accessories, props, or more freeform list
+* Budget and warnings/updates as supply costs are added
+* Notification options
+* Customizable UI - pixel filter for photos?
+* Calculate percentage complete based on percentage of all associated elements and total time logged
 
 ### User Stories
 * As a cosplayer, I want a packing checklist so that I will be sure to remember all of my supplies before big events.
 * I running on little sleep and still finishing everything before the con so I need a visual, intuitive app that will help walk me through the packing process.
 * I don't want to stress about forgetting important parts of my costume that I worked hard on!
 * This app needs to be free, easy to use, and secure! I'm on a budget and don't want to fuss with something clunky.
+* The UI should be cute and something I'd want to screenshot and share.
+
+### User Suggestions from Social Media
+<!-- PUT SCREENSHOTS FROM POLLS HERE -->
 
 #### License
 
