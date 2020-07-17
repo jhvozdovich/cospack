@@ -14,13 +14,14 @@ Cosplayers have a lot to keep track of! Between costumes, props, makeup, repair 
 _This mobile application serves as an interactive, visual checklist application to help cosplayers pack for conventions and photoshoots, preventing forgotten items.  Full CRUD functionality is achieved with React Native and Firebase. A one to many relationship is set up between cosplays and their components._
 
 ### Instructions for use:
+<!-- * Non android users will need an emulator! FIND INSTRUCTIONS -->
 
 1. Open Terminal (macOS) or PowerShell (Windows)
 2. To download the project Directory to your desktop enter the following commands:
 ```
 cd Desktop
 git clone https://github.com/jhvozdovich/cospack.git
-cd tap-room-redux
+cd cospack
 ```
 3. To view the downloaded files, open them in a text editor or IDE of your choice.
 * if you have VSCode for example, when your terminal is within the main project Directory you can open all of the files with the command:
@@ -34,8 +35,10 @@ npm install
 ```
 6. The command npm run start will build and open the compiled code in a browser of your choice using a local host.
 ```
-npm run start
+npm start
 ```
+7. Install the Expo app on your android phone from the Google Play store and scan the QR code in the terminal or the live share to run the app on your divice.
+
 
 ### Known Bugs
 
@@ -58,7 +61,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ### Project Structure
 
-<!-- ![Component diagram](./public/TapRoomComponentDiagram.png) -->
+![Component diagram](./public/CosPackComponentDiagram.png)
 
 ### Specs
 | Spec | Input | Output |
@@ -107,9 +110,11 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 * This app needs to be free, easy to use, and secure! I'm on a budget and don't want to fuss with something clunky.
 * The UI should be cute and something I'd want to screenshot and share.
 
-
 ### User Suggestions from Social Media
-<!-- PUT SCREENSHOTS FROM POLLS HERE -->
+![User survey 1](./public/Structure.jpg)
+![User survey 2](./public/Categories-1.jpg)
+![User survey 3](./public/Categories-2.jpg)
+![User survey 4](./public/Calendar.jpg)
 
 #### License
 
