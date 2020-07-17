@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 10218,
-  "expoServerNgrokUrl": "https://4t-6a4.anonymous.cospack.exp.direct",
-  "packagerNgrokUrl": "https://packager.4t-6a4.anonymous.cospack.exp.direct",
-  "ngrokPid": 45200,
+  "packagerPid": 21963,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null
 }

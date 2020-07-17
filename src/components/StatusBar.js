@@ -2,19 +2,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-
-export default function Home() {
+export default function StatusBar() {
   return (
-    <View style={styles.container}>
-      <Text>Home Test</Text>
+    <View style={[styles.container]}>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    textAlign: "center",
-
-  }
+    height: 45,
+    backgroundColor: "black",
+  },
 });
