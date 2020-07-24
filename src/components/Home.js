@@ -2,23 +2,22 @@
 import React from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 
-
-export default function Home() {
+export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
       <Text>Home Test-InsertLogo</Text>
       <View style={styles.buttons}>
         <Button
-          onPress={() => {
-            alert("PRESSED COSPLAYS!")
-          }}
+          onPress={() =>
+            navigation.navigate("CosplayList")
+          }
           title="Cosplays"
           accessibilityLabel="Access the cosplay list"
         />
         <Text></Text>
         <Button
           onPress={() => {
-            alert("PRESSED EVENTS!")
+            navigation.navigate("EventList")
           }}
           title="Events"
           color="cornflowerblue"

@@ -1,3 +1,23 @@
+"use strict"
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+
+export default function CosplayList() {
+  return (
+    <View style={styles.container}>
+      <Text>Cosplay List Test</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#6EBFBC"
+  },
+});
+
+
 // TRY THIS FIRST
 // section list- data broken into logical sections
 // const SectionListBasics = () => {
