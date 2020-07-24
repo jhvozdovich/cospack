@@ -1,6 +1,6 @@
 "use strict"
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function Header() {
   return (
@@ -13,6 +13,6 @@ export default function Header() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#6EBFBC'
+    backgroundColor: "#6EBFBC"
   },
 });
