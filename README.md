@@ -112,10 +112,7 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ### User Suggestions from Social Media
 
-<img src="./public/UserSurveys/Structure.jpg" width=45% />
-<img src="./public/UserSurveys/Categories-1.jpg" width=45% />
-<img src="./public/UserSurveys/Categories-2.jpg" width=45% />
-<img src="./public/UserSurveys/Calendar.jpg" width=45% />
+<img src="./public/UserSurveys/Structure.jpg" width=30% /> <img src="./public/UserSurveys/Categories-1.jpg" width=30% /> <img src="./public/UserSurveys/Categories-2.jpg" width=30% /> <img src="./public/UserSurveys/Calendar.jpg" width=30% />
 
 #### License
 
