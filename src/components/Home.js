@@ -9,13 +9,17 @@ export default function Home() {
       <Text>Home Test-InsertLogo</Text>
       <View style={styles.buttons}>
         <Button
-          // onPress={}
+          onPress={() => {
+            alert("PRESSED COSPLAYS!")
+          }}
           title="Cosplays"
           accessibilityLabel="Access the cosplay list"
         />
         <Text></Text>
         <Button
-          // onPress={}
+          onPress={() => {
+            alert("PRESSED EVENTS!")
+          }}
           title="Events"
           color="cornflowerblue"
           accessibilityLabel="Access the cosplay list"
