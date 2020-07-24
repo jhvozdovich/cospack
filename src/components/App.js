@@ -10,9 +10,8 @@ import AppControl from "./AppControl";
 export default function App() {
   return (
     <View style={styles.container}>
-     
+      <StatusBar hidden />
       <AppControl />
-      <StatusBar  />
     </View>
   );
 }

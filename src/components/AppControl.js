@@ -3,7 +3,6 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from "./Header";
 import CosplayControl from "./CosplayControl";
-import { StatusBar } from 'expo-status-bar';
 
 export default function AppControl() {
   return (
